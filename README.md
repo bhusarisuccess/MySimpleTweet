@@ -1,7 +1,7 @@
 <h1>MySimpleTweet Demo</h1>
 
 <p>
-This is an Android demo application for displaying the tweets  using the Google  API.
+This is an Android demo application for displaying the tweets  using the Twitter  API.
 </p>
 
 <p>
