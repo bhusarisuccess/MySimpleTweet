@@ -3,6 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
+
     android:layout_margin="10dp">
 
     <ImageView
@@ -21,6 +22,7 @@ android:adjustViewBounds="true"
         android:text="New Text"
         android:id="@+id/tvUsername"
 android:layout_marginTop="5dp"
+        android:textColor="@android:color/black"
         android:layout_toRightOf="@+id/ivProfilePhoto"
 
          />
@@ -33,5 +35,6 @@ android:layout_marginTop="5dp"
         android:layout_below="@+id/tvUsername"
         android:layout_toRightOf="@+id/ivProfilePhoto"
         android:maxLines="2"
+        android:autoLink="web"
         android:layout_toEndOf="@+id/ivProfilePhoto" />
 </RelativeLayout>
